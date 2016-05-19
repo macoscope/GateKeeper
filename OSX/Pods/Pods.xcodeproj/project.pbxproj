@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DE57B864B2677DC9EAEEDA216FB72D /* CCNStatusItemWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E90241D6C7C54292B52D804CFF8D4F1 /* CCNStatusItemWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B09B6693F04CBB836CE385C12D88CAC /* CCNStatusItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9107C2F9C092A24C87D41B63631EA470 /* CCNStatusItem-dummy.m */; };
+		20282EAFCFB06EC3E4791A53C136F7CA /* CCNStatusItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DE6CCCF553C1EBBF22E6B38B3A387 /* CCNStatusItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FAFEA2D3E1CDEED13AA29BD200D86C /* CCNStatusItemWindowConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF211D313A124184DE99F3D9860668C /* CCNStatusItemWindowConfiguration.m */; };
+		41B4F4F448E988440CEE6D945DFCA1B9 /* CCNStatusItemDropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4420D0D4C8DC01533D08D581D9B8BFD4 /* CCNStatusItemDropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF49C485BE5112FAF9B95C006EFA6E1 /* CCNStatusItemWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F941D81C61C535A2522EE2E29BAD915 /* CCNStatusItemWindowController.m */; };
+		5B707D924F36E828E47A4301B73F03E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		63FB5300A7BD9FE2EF7DAE0471730EF2 /* CCNStatusItem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D467D39D7D657CFCF46946F002C1E165 /* CCNStatusItem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C1110E2639FCC697F0AB1C987FEEEC /* Pods-Gatekeeper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA8F8856BD9ED8789805FDB436C8AFC /* Pods-Gatekeeper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7050ED73E100547D9799E694A69D9EF3 /* CCNStatusItemWindowBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CB421E6AD39BF18DC82A19216A9B /* CCNStatusItemWindowBackgroundView.m */; };
+		7BD8F5806596EB765BB2F6D07F8107AD /* CCNStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7A73299390EA0A3D6BC43A5FFB02B7 /* CCNStatusItem.m */; };
+		7E9B82B87C3E50BB11C4622FE83EACA0 /* CCNStatusItemWindowBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CF7CE3DA561D9969D272128AE5C24A /* CCNStatusItemWindowBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C091A57B56F83A13BDECC3519A2B40 /* CCNStatusItemWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBEC9F27588A7F58C6242B15DDB2E /* CCNStatusItemWindow.m */; };
+		996FBDF3F55CD898A4FB14DF52051CD4 /* Pods-Gatekeeper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4A1E8FA4907B0B1F170D6AD8350EB /* Pods-Gatekeeper-dummy.m */; };
+		A2E3F4AF5136E7D68B5B269C6E34AD8B /* CCNStatusItemWindowConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 547B4539C75E34B016B855D780B1A504 /* CCNStatusItemWindowConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4129665886CD5BD20567D3FAFBB2D7C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		AA7675662C34C34D85AD17EEFCF9BC42 /* CCNStatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB9E611A467BFE0A68722773C4A4D2 /* CCNStatusItemDropView.m */; };
+		E73820895130CBC0E5F8C7F5AC307350 /* CCNStatusItemWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D971CD41AF71CC28B7D9595AD53E812F /* CCNStatusItemWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3872C962AE2010496D170B5EBC895B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A4600794483FA0A926CFC8AAAD0A90;
+			remoteInfo = CCNStatusItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084B91A398159CF6CB2F9EC4852EF295 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		21CF7CE3DA561D9969D272128AE5C24A /* CCNStatusItemWindowBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowBackgroundView.h; path = CCNStatusItem/CCNStatusItemWindowBackgroundView.h; sourceTree = "<group>"; };
+		2E38CB421E6AD39BF18DC82A19216A9B /* CCNStatusItemWindowBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowBackgroundView.m; path = CCNStatusItem/CCNStatusItemWindowBackgroundView.m; sourceTree = "<group>"; };
+		4420D0D4C8DC01533D08D581D9B8BFD4 /* CCNStatusItemDropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemDropView.h; path = CCNStatusItem/CCNStatusItemDropView.h; sourceTree = "<group>"; };
+		466DE6CCCF553C1EBBF22E6B38B3A387 /* CCNStatusItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItem.h; path = CCNStatusItem/CCNStatusItem.h; sourceTree = "<group>"; };
+		4DCB9E611A467BFE0A68722773C4A4D2 /* CCNStatusItemDropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemDropView.m; path = CCNStatusItem/CCNStatusItemDropView.m; sourceTree = "<group>"; };
+		547B4539C75E34B016B855D780B1A504 /* CCNStatusItemWindowConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowConfiguration.h; path = CCNStatusItem/CCNStatusItemWindowConfiguration.h; sourceTree = "<group>"; };
+		5802A0A7E6B2A03F6CE4858F19875454 /* Pods-Gatekeeper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gatekeeper-frameworks.sh"; sourceTree = "<group>"; };
+		68FF9FA2EBCE82DFBFB2BA7A0AD6614C /* CCNStatusItem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCNStatusItem.modulemap; sourceTree = "<group>"; };
+		69FECBE73A521F47E943FAB2373AEE47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA8F8856BD9ED8789805FDB436C8AFC /* Pods-Gatekeeper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gatekeeper-umbrella.h"; sourceTree = "<group>"; };
+		790594CF35FF90DB48AAD52A10848547 /* CCNStatusItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCNStatusItem-prefix.pch"; sourceTree = "<group>"; };
+		90318C3C0731F86E42799F3652655567 /* Pods-Gatekeeper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gatekeeper-resources.sh"; sourceTree = "<group>"; };
+		9107C2F9C092A24C87D41B63631EA470 /* CCNStatusItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCNStatusItem-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E90241D6C7C54292B52D804CFF8D4F1 /* CCNStatusItemWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowController.h; path = CCNStatusItem/CCNStatusItemWindowController.h; sourceTree = "<group>"; };
+		9F2CBEC9F27588A7F58C6242B15DDB2E /* CCNStatusItemWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindow.m; path = CCNStatusItem/CCNStatusItemWindow.m; sourceTree = "<group>"; };
+		9F941D81C61C535A2522EE2E29BAD915 /* CCNStatusItemWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowController.m; path = CCNStatusItem/CCNStatusItemWindowController.m; sourceTree = "<group>"; };
+		AA7A73299390EA0A3D6BC43A5FFB02B7 /* CCNStatusItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItem.m; path = CCNStatusItem/CCNStatusItem.m; sourceTree = "<group>"; };
+		AEF211D313A124184DE99F3D9860668C /* CCNStatusItemWindowConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowConfiguration.m; path = CCNStatusItem/CCNStatusItemWindowConfiguration.m; sourceTree = "<group>"; };
+		BADEF4A8CB4092D8504CD425DB3DC939 /* Pods-Gatekeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gatekeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFFE9470D758E956DBA1B86EA4CFBCD /* Pods-Gatekeeper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Gatekeeper.modulemap"; sourceTree = "<group>"; };
+		BBE4A1E8FA4907B0B1F170D6AD8350EB /* Pods-Gatekeeper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gatekeeper-dummy.m"; sourceTree = "<group>"; };
+		C580EEEC85C40C72ADF9206FC449B544 /* CCNStatusItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCNStatusItem.xcconfig; sourceTree = "<group>"; };
+		CB6FC2AC063FAF33D0644CBD7E27D374 /* Pods_Gatekeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gatekeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB95740C5004FC76D9BDC6BE4BA7A175 /* Pods-Gatekeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gatekeeper.release.xcconfig"; sourceTree = "<group>"; };
+		D467D39D7D657CFCF46946F002C1E165 /* CCNStatusItem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCNStatusItem-umbrella.h"; sourceTree = "<group>"; };
+		D971CD41AF71CC28B7D9595AD53E812F /* CCNStatusItemWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindow.h; path = CCNStatusItem/CCNStatusItemWindow.h; sourceTree = "<group>"; };
+		F1BAC8269FA82EFA6F486857336DD42C /* Pods-Gatekeeper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gatekeeper-acknowledgements.plist"; sourceTree = "<group>"; };
+		F887D4EDB804A149746F1A5C76DAA2FE /* CCNStatusItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCNStatusItem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF838D6988A8B1CD31A49ABCBBF41EE5 /* Pods-Gatekeeper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gatekeeper-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0113B061835E777E900B71116AD9DF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4129665886CD5BD20567D3FAFBB2D7C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F975709FDE827460DE3E63E900979A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B707D924F36E828E47A4301B73F03E1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2D203E85F925DC7683A58FB52AD214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0542B57CFA52B70BA8C35E8E5766A5D /* CCNStatusItem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2B181728AA54FB5044CAA53FD1895F7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68FF9FA2EBCE82DFBFB2BA7A0AD6614C /* CCNStatusItem.modulemap */,
+				C580EEEC85C40C72ADF9206FC449B544 /* CCNStatusItem.xcconfig */,
+				9107C2F9C092A24C87D41B63631EA470 /* CCNStatusItem-dummy.m */,
+				790594CF35FF90DB48AAD52A10848547 /* CCNStatusItem-prefix.pch */,
+				D467D39D7D657CFCF46946F002C1E165 /* CCNStatusItem-umbrella.h */,
+				69FECBE73A521F47E943FAB2373AEE47 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCNStatusItem";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F73E1DDD900DED83AB69CC3366B372E /* Pods-Gatekeeper */ = {
+			isa = PBXGroup;
+			children = (
+				084B91A398159CF6CB2F9EC4852EF295 /* Info.plist */,
+				BAFFE9470D758E956DBA1B86EA4CFBCD /* Pods-Gatekeeper.modulemap */,
+				FF838D6988A8B1CD31A49ABCBBF41EE5 /* Pods-Gatekeeper-acknowledgements.markdown */,
+				F1BAC8269FA82EFA6F486857336DD42C /* Pods-Gatekeeper-acknowledgements.plist */,
+				BBE4A1E8FA4907B0B1F170D6AD8350EB /* Pods-Gatekeeper-dummy.m */,
+				5802A0A7E6B2A03F6CE4858F19875454 /* Pods-Gatekeeper-frameworks.sh */,
+				90318C3C0731F86E42799F3652655567 /* Pods-Gatekeeper-resources.sh */,
+				6BA8F8856BD9ED8789805FDB436C8AFC /* Pods-Gatekeeper-umbrella.h */,
+				BADEF4A8CB4092D8504CD425DB3DC939 /* Pods-Gatekeeper.debug.xcconfig */,
+				CB95740C5004FC76D9BDC6BE4BA7A175 /* Pods-Gatekeeper.release.xcconfig */,
+			);
+			name = "Pods-Gatekeeper";
+			path = "Target Support Files/Pods-Gatekeeper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				0B2D203E85F925DC7683A58FB52AD214 /* Pods */,
+				8B619A3EAD8450D98C416E04B5CBEB4F /* Products */,
+				E5D8E06A080D8D9ED2577F0FD01945CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B619A3EAD8450D98C416E04B5CBEB4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F887D4EDB804A149746F1A5C76DAA2FE /* CCNStatusItem.framework */,
+				CB6FC2AC063FAF33D0644CBD7E27D374 /* Pods_Gatekeeper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0542B57CFA52B70BA8C35E8E5766A5D /* CCNStatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				466DE6CCCF553C1EBBF22E6B38B3A387 /* CCNStatusItem.h */,
+				AA7A73299390EA0A3D6BC43A5FFB02B7 /* CCNStatusItem.m */,
+				4420D0D4C8DC01533D08D581D9B8BFD4 /* CCNStatusItemDropView.h */,
+				4DCB9E611A467BFE0A68722773C4A4D2 /* CCNStatusItemDropView.m */,
+				D971CD41AF71CC28B7D9595AD53E812F /* CCNStatusItemWindow.h */,
+				9F2CBEC9F27588A7F58C6242B15DDB2E /* CCNStatusItemWindow.m */,
+				21CF7CE3DA561D9969D272128AE5C24A /* CCNStatusItemWindowBackgroundView.h */,
+				2E38CB421E6AD39BF18DC82A19216A9B /* CCNStatusItemWindowBackgroundView.m */,
+				547B4539C75E34B016B855D780B1A504 /* CCNStatusItemWindowConfiguration.h */,
+				AEF211D313A124184DE99F3D9860668C /* CCNStatusItemWindowConfiguration.m */,
+				9E90241D6C7C54292B52D804CFF8D4F1 /* CCNStatusItemWindowController.h */,
+				9F941D81C61C535A2522EE2E29BAD915 /* CCNStatusItemWindowController.m */,
+				2B181728AA54FB5044CAA53FD1895F7C /* Support Files */,
+			);
+			path = CCNStatusItem;
+			sourceTree = "<group>";
+		};
+		E5D8E06A080D8D9ED2577F0FD01945CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F73E1DDD900DED83AB69CC3366B372E /* Pods-Gatekeeper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06DEF2AC054F90AE801AE359811B55A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FB5300A7BD9FE2EF7DAE0471730EF2 /* CCNStatusItem-umbrella.h in Headers */,
+				20282EAFCFB06EC3E4791A53C136F7CA /* CCNStatusItem.h in Headers */,
+				41B4F4F448E988440CEE6D945DFCA1B9 /* CCNStatusItemDropView.h in Headers */,
+				E73820895130CBC0E5F8C7F5AC307350 /* CCNStatusItemWindow.h in Headers */,
+				7E9B82B87C3E50BB11C4622FE83EACA0 /* CCNStatusItemWindowBackgroundView.h in Headers */,
+				A2E3F4AF5136E7D68B5B269C6E34AD8B /* CCNStatusItemWindowConfiguration.h in Headers */,
+				09DE57B864B2677DC9EAEEDA216FB72D /* CCNStatusItemWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB817DEE294BCBFA148F6AF880AFA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C1110E2639FCC697F0AB1C987FEEEC /* Pods-Gatekeeper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48DB53B09F927CF33342A83432148A53 /* Pods-Gatekeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BB120B6F1C5E60C7AD5AC3A3370437 /* Build configuration list for PBXNativeTarget "Pods-Gatekeeper" */;
+			buildPhases = (
+				BC0CFF02C72FF3C2912FC236EFF94E84 /* Sources */,
+				0113B061835E777E900B71116AD9DF5E /* Frameworks */,
+				8ACB817DEE294BCBFA148F6AF880AFA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351F4F75750C5FA477BB9B0F06DA8BA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gatekeeper";
+			productName = "Pods-Gatekeeper";
+			productReference = CB6FC2AC063FAF33D0644CBD7E27D374 /* Pods_Gatekeeper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73A4600794483FA0A926CFC8AAAD0A90 /* CCNStatusItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C704EC791BF0F886DC3162AA4491D1F /* Build configuration list for PBXNativeTarget "CCNStatusItem" */;
+			buildPhases = (
+				927EF0070890D29EF249785F5999A98A /* Sources */,
+				D9F975709FDE827460DE3E63E900979A /* Frameworks */,
+				06DEF2AC054F90AE801AE359811B55A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCNStatusItem;
+			productName = CCNStatusItem;
+			productReference = F887D4EDB804A149746F1A5C76DAA2FE /* CCNStatusItem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8B619A3EAD8450D98C416E04B5CBEB4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A4600794483FA0A926CFC8AAAD0A90 /* CCNStatusItem */,
+				48DB53B09F927CF33342A83432148A53 /* Pods-Gatekeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927EF0070890D29EF249785F5999A98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09B6693F04CBB836CE385C12D88CAC /* CCNStatusItem-dummy.m in Sources */,
+				7BD8F5806596EB765BB2F6D07F8107AD /* CCNStatusItem.m in Sources */,
+				AA7675662C34C34D85AD17EEFCF9BC42 /* CCNStatusItemDropView.m in Sources */,
+				96C091A57B56F83A13BDECC3519A2B40 /* CCNStatusItemWindow.m in Sources */,
+				7050ED73E100547D9799E694A69D9EF3 /* CCNStatusItemWindowBackgroundView.m in Sources */,
+				23FAFEA2D3E1CDEED13AA29BD200D86C /* CCNStatusItemWindowConfiguration.m in Sources */,
+				4EF49C485BE5112FAF9B95C006EFA6E1 /* CCNStatusItemWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0CFF02C72FF3C2912FC236EFF94E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996FBDF3F55CD898A4FB14DF52051CD4 /* Pods-Gatekeeper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351F4F75750C5FA477BB9B0F06DA8BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCNStatusItem;
+			target = 73A4600794483FA0A926CFC8AAAD0A90 /* CCNStatusItem */;
+			targetProxy = 3872C962AE2010496D170B5EBC895B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32BD9935E6C5F8EEF34156F2AEF76151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C580EEEC85C40C72ADF9206FC449B544 /* CCNStatusItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCNStatusItem/CCNStatusItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCNStatusItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CCNStatusItem/CCNStatusItem.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CCNStatusItem;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4888EEFBEA04FABA2120470F4B676BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37D6EBEF1447D5BEB6C7D9C92730E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C580EEEC85C40C72ADF9206FC449B544 /* CCNStatusItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCNStatusItem/CCNStatusItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCNStatusItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CCNStatusItem/CCNStatusItem.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CCNStatusItem;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4BBF48FF35B136C9CAF25CF9E5BB146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB95740C5004FC76D9BDC6BE4BA7A175 /* Pods-Gatekeeper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gatekeeper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gatekeeper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA2E206EB90DF75A25332AE4AA713F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECC318676FA3751935828217CC423C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADEF4A8CB4092D8504CD425DB3DC939 /* Pods-Gatekeeper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gatekeeper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gatekeeper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E206EB90DF75A25332AE4AA713F31 /* Debug */,
+				4888EEFBEA04FABA2120470F4B676BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C704EC791BF0F886DC3162AA4491D1F /* Build configuration list for PBXNativeTarget "CCNStatusItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37D6EBEF1447D5BEB6C7D9C92730E95 /* Debug */,
+				32BD9935E6C5F8EEF34156F2AEF76151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BB120B6F1C5E60C7AD5AC3A3370437 /* Build configuration list for PBXNativeTarget "Pods-Gatekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC318676FA3751935828217CC423C43 /* Debug */,
+				D4BBF48FF35B136C9CAF25CF9E5BB146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

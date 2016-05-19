@@ -1,0 +1,13 @@
+click==6.2
+dominate==2.1.16
+Flask==0.10.1
+flask-appconfig==0.11.1
+Flask-Bootstrap==3.3.5.7
+flask-nav==0.5
+itsdangerous==0.24
+Jinja2==2.8
+MarkupSafe==0.23
+six==1.10.0
+visitor==0.1.2
+Werkzeug==0.11.2
+wheel==0.24.0

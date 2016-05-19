@@ -1,0 +1,6 @@
+framework module CCNStatusItem {
+  umbrella header "CCNStatusItem-umbrella.h"
+
+  export *
+  module * { export * }
+}

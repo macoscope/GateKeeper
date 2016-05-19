@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F1FDC11CE470FD005B7F7B /* Gatekeeper.app in Install to /Applications */ = {isa = PBXBuildFile; fileRef = 65118AC91C2606AC001A8DCE /* Gatekeeper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5065D25FFD6712EB41F73F82 /* Pods_Gatekeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A35592D1B905940CDE1CFFE /* Pods_Gatekeeper.framework */; };
+		65118ACD1C2606AC001A8DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65118ACC1C2606AC001A8DCE /* AppDelegate.swift */; };
+		65118ACF1C2606AC001A8DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65118ACE1C2606AC001A8DCE /* Assets.xcassets */; };
+		65118AD21C2606AC001A8DCE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65118AD01C2606AC001A8DCE /* MainMenu.xib */; };
+		65118ADC1C260A66001A8DCE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65118ADA1C260A66001A8DCE /* CameraViewController.swift */; };
+		65118ADD1C260A66001A8DCE /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65118ADB1C260A66001A8DCE /* CameraViewController.xib */; };
+		65118ADF1C26320B001A8DCE /* MJPEGStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65118ADE1C26320B001A8DCE /* MJPEGStreamReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20F1FDC01CE470EB005B7F7B /* Install to /Applications */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Applications;
+			dstSubfolderSpec = 0;
+			files = (
+				20F1FDC11CE470FD005B7F7B /* Gatekeeper.app in Install to /Applications */,
+			);
+			name = "Install to /Applications";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A35592D1B905940CDE1CFFE /* Pods_Gatekeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gatekeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65118AC91C2606AC001A8DCE /* Gatekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gatekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65118ACC1C2606AC001A8DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65118ACE1C2606AC001A8DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65118AD11C2606AC001A8DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65118AD31C2606AC001A8DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65118ADA1C260A66001A8DCE /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		65118ADB1C260A66001A8DCE /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		65118ADE1C26320B001A8DCE /* MJPEGStreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJPEGStreamReader.swift; sourceTree = "<group>"; };
+		69C256B3FEE50678301FC490 /* Pods-Gatekeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gatekeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper.release.xcconfig"; sourceTree = "<group>"; };
+		7FAC98996B5411976B822527 /* Pods-Gatekeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gatekeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65118AC61C2606AC001A8DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5065D25FFD6712EB41F73F82 /* Pods_Gatekeeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65118AC01C2606AC001A8DCE = {
+			isa = PBXGroup;
+			children = (
+				65118ACB1C2606AC001A8DCE /* Gatekeeper */,
+				65118ACA1C2606AC001A8DCE /* Products */,
+				83EA9E1F9812BB4B07762E50 /* Pods */,
+				931BEF034BB7491E21B2C093 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65118ACA1C2606AC001A8DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65118AC91C2606AC001A8DCE /* Gatekeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65118ACB1C2606AC001A8DCE /* Gatekeeper */ = {
+			isa = PBXGroup;
+			children = (
+				65118ACC1C2606AC001A8DCE /* AppDelegate.swift */,
+				65118ADE1C26320B001A8DCE /* MJPEGStreamReader.swift */,
+				65118ADA1C260A66001A8DCE /* CameraViewController.swift */,
+				65118ADB1C260A66001A8DCE /* CameraViewController.xib */,
+				65118AD01C2606AC001A8DCE /* MainMenu.xib */,
+				65118ACE1C2606AC001A8DCE /* Assets.xcassets */,
+				65118AD31C2606AC001A8DCE /* Info.plist */,
+			);
+			path = Gatekeeper;
+			sourceTree = "<group>";
+		};
+		83EA9E1F9812BB4B07762E50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC98996B5411976B822527 /* Pods-Gatekeeper.debug.xcconfig */,
+				69C256B3FEE50678301FC490 /* Pods-Gatekeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		931BEF034BB7491E21B2C093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A35592D1B905940CDE1CFFE /* Pods_Gatekeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65118AC81C2606AC001A8DCE /* Gatekeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65118AD61C2606AC001A8DCE /* Build configuration list for PBXNativeTarget "Gatekeeper" */;
+			buildPhases = (
+				25024FFFFEE5860396DA8A46 /* 📦 Check Pods Manifest.lock */,
+				65118AD91C2606E2001A8DCE /* [MC] Update Build Number  */,
+				65118AC51C2606AC001A8DCE /* Sources */,
+				65118AC61C2606AC001A8DCE /* Frameworks */,
+				65118AC71C2606AC001A8DCE /* Resources */,
+				20F1FDC01CE470EB005B7F7B /* Install to /Applications */,
+				5A64FC101BE62A99B5DE9B47 /* 📦 Embed Pods Frameworks */,
+				54BB2B06F7E63A754A2F6F40 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gatekeeper;
+			productName = Gatekeeper;
+			productReference = 65118AC91C2606AC001A8DCE /* Gatekeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65118AC11C2606AC001A8DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Macoscope;
+				TargetAttributes = {
+					65118AC81C2606AC001A8DCE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XA8U8K5RRK;
+					};
+				};
+			};
+			buildConfigurationList = 65118AC41C2606AC001A8DCE /* Build configuration list for PBXProject "Gatekeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65118AC01C2606AC001A8DCE;
+			productRefGroup = 65118ACA1C2606AC001A8DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65118AC81C2606AC001A8DCE /* Gatekeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65118AC71C2606AC001A8DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65118ADD1C260A66001A8DCE /* CameraViewController.xib in Resources */,
+				65118ACF1C2606AC001A8DCE /* Assets.xcassets in Resources */,
+				65118AD21C2606AC001A8DCE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25024FFFFEE5860396DA8A46 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54BB2B06F7E63A754A2F6F40 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A64FC101BE62A99B5DE9B47 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gatekeeper/Pods-Gatekeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65118AD91C2606E2001A8DCE /* [MC] Update Build Number  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[MC] Update Build Number ";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${EXECUTABLE_NAME}\"\nBASE_PATH=$(pwd)\nPLIST_PATH=\"${BASE_PATH}/Info.plist\"\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PLIST_PATH}\")\nBUNDLE_VERSION=$[$BUNDLE_VERSION + 1]\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUNDLE_VERSION\" \"${PLIST_PATH}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65118AC51C2606AC001A8DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65118ADF1C26320B001A8DCE /* MJPEGStreamReader.swift in Sources */,
+				65118ACD1C2606AC001A8DCE /* AppDelegate.swift in Sources */,
+				65118ADC1C260A66001A8DCE /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65118AD01C2606AC001A8DCE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65118AD11C2606AC001A8DCE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65118AD41C2606AC001A8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65118AD51C2606AC001A8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65118AD71C2606AC001A8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAC98996B5411976B822527 /* Pods-Gatekeeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Gatekeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoscope.lab.Gatekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65118AD81C2606AC001A8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C256B3FEE50678301FC490 /* Pods-Gatekeeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Gatekeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoscope.lab.Gatekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65118AC41C2606AC001A8DCE /* Build configuration list for PBXProject "Gatekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65118AD41C2606AC001A8DCE /* Debug */,
+				65118AD51C2606AC001A8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65118AD61C2606AC001A8DCE /* Build configuration list for PBXNativeTarget "Gatekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65118AD71C2606AC001A8DCE /* Debug */,
+				65118AD81C2606AC001A8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65118AC11C2606AC001A8DCE /* Project object */;
+}

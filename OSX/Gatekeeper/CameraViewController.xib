@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CameraViewController" customModule="Gatekeeper" customModuleProvider="target">
+            <connections>
+                <outlet property="gearButtonMenu" destination="jey-4n-oCt" id="Z5P-AJ-H8H"/>
+                <outlet property="imageView" destination="ioo-S3-n5u" id="UUu-DC-Qha"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="444"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ioo-S3-n5u">
+                    <rect key="frame" x="20" y="64" width="480" height="360"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="480" id="95w-sE-TcJ"/>
+                        <constraint firstAttribute="height" constant="360" id="qlo-wb-EdR"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="LoadingTemplate" id="8ey-CT-jcw"/>
+                </imageView>
+                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HwL-9m-X9e">
+                    <rect key="frame" x="14" y="15" width="129" height="32"/>
+                    <buttonCell key="cell" type="push" title="Open the Gate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="11s-8F-BNb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="openGate:" target="-2" id="jfy-OM-EL8"/>
+                    </connections>
+                </button>
+                <popUpButton translatesAutoresizingMaskIntoConstraints="NO" id="6kl-aQ-O4E">
+                    <rect key="frame" x="458" y="20" width="42" height="26"/>
+                    <popUpButtonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="only" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" pullsDown="YES" arrowPosition="arrowAtCenter" selectedItem="5ir-b3-hTg" id="ZNC-LY-uVe">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" id="jey-4n-oCt">
+                            <items>
+                                <menuItem state="on" image="NSActionTemplate" hidden="YES" id="oZm-5R-Yln"/>
+                                <menuItem title="Preferences" hidden="YES" keyEquivalent="." id="dHC-GF-aOz"/>
+                                <menuItem title="Start Movie Recording" hidden="YES" id="BSu-jR-ka8">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="Start Saving Frames as JPEGs" hidden="YES" id="h5b-mL-AUC">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                    <connections>
+                                        <action selector="toggleFrameToJPEGDumping:" target="-1" id="805-Jc-MXP"/>
+                                    </connections>
+                                </menuItem>
+                                <menuItem isSeparatorItem="YES" hidden="YES" id="yuS-3L-O5G"/>
+                                <menuItem title="Raspberry Pi Camera" tag="1001" id="NbU-g4-z7H">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="Raspberry Tau Camera" tag="1002" id="P6P-sj-2LG">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="Other Webcams..." tag="1003" id="5ir-b3-hTg">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                    <menu key="submenu" title="Other Webcams..." id="7Tt-u1-M5m">
+                                        <items>
+                                            <menuItem title="Counter" id="UWU-hk-wkH">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Internet Cafe in Moscow" id="2nf-1K-pbf">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Tai Tam Island Hong Kong" id="YY8-4d-QKq">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </menuItem>
+                                <menuItem isSeparatorItem="YES" id="NFP-Lo-H9u"/>
+                                <menuItem title="Quit Gatekeeper" keyEquivalent="q" id="VM9-mk-Zpv">
+                                    <connections>
+                                        <action selector="terminate:" target="-1" id="dnR-O7-NJw"/>
+                                    </connections>
+                                </menuItem>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                </popUpButton>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ioo-S3-n5u" secondAttribute="trailing" constant="20" id="DNs-zb-oLy"/>
+                <constraint firstItem="HwL-9m-X9e" firstAttribute="top" secondItem="ioo-S3-n5u" secondAttribute="bottom" constant="20" id="KqY-wN-Eu5"/>
+                <constraint firstAttribute="bottom" secondItem="HwL-9m-X9e" secondAttribute="bottom" constant="23" id="LjD-fi-fUc"/>
+                <constraint firstItem="ioo-S3-n5u" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="NBW-Iy-WbO"/>
+                <constraint firstAttribute="trailing" secondItem="6kl-aQ-O4E" secondAttribute="trailing" constant="20" id="ONO-9s-14d"/>
+                <constraint firstAttribute="bottom" secondItem="6kl-aQ-O4E" secondAttribute="bottom" constant="20" id="j4C-QN-BEk"/>
+                <constraint firstItem="6kl-aQ-O4E" firstAttribute="top" secondItem="ioo-S3-n5u" secondAttribute="bottom" constant="18" id="kx2-EY-WYS"/>
+                <constraint firstItem="ioo-S3-n5u" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="urk-HB-nHF"/>
+                <constraint firstItem="HwL-9m-X9e" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="ve0-AH-Efg"/>
+            </constraints>
+            <point key="canvasLocation" x="495" y="401"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="LoadingTemplate" width="512" height="512"/>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
+</document>

@@ -1,0 +1,17 @@
+{%- extends "bootstrap/base.html" %}
+
+{% block title %} Gatekeeper {% endblock %}
+
+
+{% block head %}
+{{super()}}
+{%- endblock %}
+
+{% block styles -%}
+  {{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{nav.frontend_top.render()}}
+{% endblock %}
+
