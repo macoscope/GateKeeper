@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="CameraViewController" customModule="Gatekeeper" customModuleProvider="target">
@@ -41,7 +41,7 @@ DQ
                 </button>
                 <popUpButton translatesAutoresizingMaskIntoConstraints="NO" id="6kl-aQ-O4E">
                     <rect key="frame" x="458" y="20" width="42" height="26"/>
-                    <popUpButtonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="only" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" pullsDown="YES" arrowPosition="arrowAtCenter" selectedItem="5ir-b3-hTg" id="ZNC-LY-uVe">
+                    <popUpButtonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="only" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" pullsDown="YES" arrowPosition="arrowAtCenter" selectedItem="oZm-5R-Yln" id="ZNC-LY-uVe">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
                         <menu key="menu" id="jey-4n-oCt">
@@ -59,9 +59,6 @@ DQ
                                 </menuItem>
                                 <menuItem isSeparatorItem="YES" hidden="YES" id="yuS-3L-O5G"/>
                                 <menuItem title="Raspberry Pi Camera" tag="1001" id="NbU-g4-z7H">
-                                    <modifierMask key="keyEquivalentModifierMask"/>
-                                </menuItem>
-                                <menuItem title="Raspberry Tau Camera" tag="1002" id="P6P-sj-2LG">
                                     <modifierMask key="keyEquivalentModifierMask"/>
                                 </menuItem>
                                 <menuItem title="Other Webcams..." tag="1003" id="5ir-b3-hTg">
